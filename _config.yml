@@ -1,0 +1,18 @@
+name: shan's blog
+description: 弃捐勿复道，努力加餐饭。
+url: https://caisan.github.io
+
+timezone: Asia/Shanghai
+
+paginate: 10
+paginate_path: "page:num"
+
+permalink: /:year-:month-:day-:title.html
+
+markdown: kramdown
+
+redcarpet:
+    extensions: [
+        'no_intra_emphasis', 'tables', 'space_after_headers', 'autolink',
+        'strikethrough', 'superscript'
+    ]
