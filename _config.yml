@@ -11,8 +11,6 @@ permalink: /:year-:month-:day-:title.html
 
 markdown: kramdown
 
-redcarpet:
-    extensions: [
-        'no_intra_emphasis', 'tables', 'space_after_headers', 'autolink',
-        'strikethrough', 'superscript'
-    ]
+kramdown:
+    input: GFM
+highlighter: rouge
